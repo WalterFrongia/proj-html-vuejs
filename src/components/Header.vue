@@ -7,21 +7,23 @@
                 <!-- ROW LOGO E NAVBAR -->
 
                 <!-- LOGO -->
-                <div class="row pt-4">
+                <div class="row pt-3">
                     <div class="col-6 pt-2">
                         <div class="col-4">
-                            <img src="../assets/images/medical_logo_1x_light.png" alt="">
+                            <a href="">
+                                <img src="../assets/images/medical_logo_1x_light.png" alt="">
+                            </a>
                         </div>
                     </div>
                 <!-- / LOGO -->
                     <!-- NAVBAR -->
                     <div id ="my-nav-bar" class="col-6 d-flex justify-content-end pt-2">
-                        <div class="col-4">
+                        <div class="col-8">
                             <ul>
                                 <li v-for="link in navBarLinks" :key="link.name"><a href="">{{link.name}}</a></li>
                             </ul>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 ms-2">
                             <button>MAKE APPOINTMENT</button>
                         </div>
                     <!-- / NAV BAR -->
@@ -50,7 +52,7 @@ export default {
                     name:"DEPARTMENTS"
                 },
                 {
-                    name:"ARTICLE"
+                    name:"ARTICLES"
                 },
             ],
         }
@@ -91,7 +93,7 @@ ul{
     list-style-type: none;
     text-align: center;
         a{
-            padding:0 10px;
+            padding:0 15px;
             text-decoration: none;
             color:white;
         }
