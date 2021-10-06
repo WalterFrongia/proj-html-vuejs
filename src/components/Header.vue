@@ -5,12 +5,16 @@
         <div id="header-section">
             <div class="container">
                 <!-- ROW LOGO E NAVBAR -->
+
+                <!-- LOGO -->
                 <div class="row pt-4">
                     <div class="col-6 pt-2">
                         <div class="col-4">
                             <img src="../assets/images/medical_logo_1x_light.png" alt="">
                         </div>
                     </div>
+                <!-- / LOGO -->
+                    <!-- NAVBAR -->
                     <div id ="my-nav-bar" class="col-6 d-flex justify-content-end pt-2">
                         <div class="col-4">
                             <ul>
@@ -20,6 +24,7 @@
                         <div class="col-4">
                             <button>MAKE APPOINTMENT</button>
                         </div>
+                    <!-- / NAV BAR -->
                     </div>
                 </div>
                 <!-- / ROW LOGO E NAVBAR -->
@@ -33,6 +38,7 @@ export default {
     name:'Header',
     data(){
         return{
+            //ARRAY DI OGGETTI CHE SERVE PER NAV-BAR
             navBarLinks:[
                 {
                     name:"HOME"
