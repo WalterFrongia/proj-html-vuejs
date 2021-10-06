@@ -11,7 +11,7 @@
                             <img src="../assets/images/medical_logo_1x_light.png" alt="">
                         </div>
                     </div>
-                    <div class="col-6 d-flex justify-content-end pt-2">
+                    <div id ="my-nav-bar" class="col-6 d-flex justify-content-end pt-2">
                         <div class="col-4">
                             <ul>
                                 <li v-for="link in navBarLinks" :key="link.name"><a href="">{{link.name}}</a></li>
@@ -63,12 +63,20 @@ export default {
 
     height: 500px;//poi viene rimossa, adesso solo per capire la struttura
 }
+
 #header-section{
     img{
         width:100%;
         height: 100%;
     }
 }
+
+#my-nav-bar{
+    display:flex;
+    align-items: baseline;
+
+}
+
 ul{
     display: flex;
     justify-content: flex-end;
@@ -88,6 +96,7 @@ button{
     color:$textColor;
 
     border:none;
+    border-radius:2px;
     padding:8px 25px;
 }
 </style>
