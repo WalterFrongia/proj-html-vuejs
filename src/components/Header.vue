@@ -124,7 +124,7 @@ ul{
 }
 button{
     background-color: $primaryColor;
-    color:$textColor;
+    color:$secondaryColor;
 
     border:none;
     border-radius:2px;
@@ -139,13 +139,13 @@ button{
     padding-top:130px;
     padding-bottom: 250px;
     h1{
-        color:$textColor;
+        color:$secondaryColor;
         span{
             color:$primaryColor;
         }
     }
     p{
-        color:$textColor;
+        color:$secondaryColor;
     }
 }
 

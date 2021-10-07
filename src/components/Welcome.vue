@@ -2,7 +2,7 @@
     <div id="welcome-section">
         <div class="container">
             <div class="row">
-                <div class="col-4 text-center">
+                <div class="col-12 text-center pt-5">
                    <h1>Welcome to Avada Health</h1>
                 </div>
             </div>
@@ -24,6 +24,9 @@ export default {
     margin:auto;
     width:$primaryWidth;
     height: 500px; //atezza impostata per capire grandezze pagina, poi verrà rimossa
+    h1{
+        color:$thirdColor;
+    }
 }
 
 </style>
