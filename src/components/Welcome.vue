@@ -64,6 +64,9 @@ export default {
     h1{
         color:$thirdColor;
     }
+    p{
+        line-height: 35px;
+    }
 }
 
 .my-welcome-cards{
