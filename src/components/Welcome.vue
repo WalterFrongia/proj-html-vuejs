@@ -2,8 +2,8 @@
     <div id="welcome-section">
         <div class="container">
             <div class="row">
-                <div class="">
-                    <h1>ciao</h1>
+                <div class="col-4 text-center">
+                   <h1>Welcome to Avada Health</h1>
                 </div>
             </div>
         </div>
@@ -21,6 +21,8 @@ export default {
 @import "../style/variables.scss";
 
 #welcome-section{
+    margin:auto;
+    width:$primaryWidth;
     height: 500px; //atezza impostata per capire grandezze pagina, poi verrà rimossa
 }
 

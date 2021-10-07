@@ -134,7 +134,7 @@ button{
 //Text Section
 #text-section{
     margin:auto;
-    width:60%;
+    width:$primaryWidth;
 
     padding-top:130px;
     padding-bottom: 250px;
