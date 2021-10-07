@@ -17,7 +17,7 @@
             <!-- / TITOLO E TESTO -->
 
             <!-- SEZIONE CARTE -->
-            <div class="welcome-cards">
+            <div class="my-welcome-cards">
                <div class="row">
                    <div class="col-3 text-center">
                        <img src="../assets/images/icon-1.png" alt="">
@@ -66,7 +66,7 @@ export default {
     }
 }
 
-.welcome-cards{
+.my-welcome-cards{
     padding-top: 50px;
     padding-bottom:100px;
 }
