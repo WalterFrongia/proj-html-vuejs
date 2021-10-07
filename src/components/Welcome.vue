@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="">
-
+                    <h1>ciao</h1>
                 </div>
             </div>
         </div>
@@ -18,9 +18,10 @@ export default {
 
 <style lang="scss" scoped>
 
+@import "../style/variables.scss";
+
 #welcome-section{
     height: 500px; //atezza impostata per capire grandezze pagina, poi verrà rimossa
-    
 }
 
 </style>
