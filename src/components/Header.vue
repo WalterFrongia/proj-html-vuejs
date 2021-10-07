@@ -32,6 +32,27 @@
                 <!-- / ROW LOGO E NAVBAR -->
             </div>
         </div>
+        <div id="text-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4">
+                        <h1>CARING FOR LIFE</h1>
+                    </div>
+                    <div class="row pt-4 pb-4">
+                        <div class="col-6">
+                            <p>Kind words can be short and easy to speack, but their echose are truly endless.
+                                Avada Healt focuses on you as if was our own family.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <button>LEARN MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -68,8 +89,6 @@ export default {
     background-image: url(../assets/images/header-image-homepage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
-    height: 500px;//poi viene rimossa, adesso solo per capire la struttura
 }
 
 #header-section{
@@ -109,4 +128,18 @@ button{
     border-radius:2px;
     padding:8px 25px;
 }
+
+//Text Section
+#text-section{
+    margin:auto;
+    width:70%;
+
+    padding-top:130px;
+    padding-bottom: 200px;
+
+    p{
+        color:$textColor;
+    }
+}
+
 </style>
