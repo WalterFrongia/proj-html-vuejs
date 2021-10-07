@@ -1,6 +1,7 @@
 <template>
     <div id="my-welcome-section">
         <div class="container">
+            <!-- SEZIONE TITOLO E TESTO -->
             <div class="row">
                 <div class="col-12 text-center pt-5">
                    <h1>Welcome to Avada Health</h1>
@@ -13,6 +14,31 @@
                     </p>
                 </div>
             </div>
+            <!-- / TITOLO E TESTO -->
+
+            <!-- SEZIONE CARTE -->
+            <div class="welcome-cards">
+               <div class="row">
+                   <div class="col-3 text-center">
+                       <img src="../assets/images/icon-1.png" alt="">
+                       <p>Sed ut perspiaciatis omnis iste natus error sit voluptatem accusantium</p>
+                   </div>
+                    <div class="col-3 text-center">
+                       <img src="../assets/images/icon-2.png" alt="">
+                       <p>Sed ut perspiaciatis omnis iste natus error sit voluptatem accusantium</p>
+                   </div>
+                    <div class="col-3 text-center">
+                       <img src="../assets/images/icon-3.png" alt="">
+                       <p>Sed ut perspiaciatis omnis iste natus error sit voluptatem accusantium</p>
+                   </div>
+                    <div class="col-3 text-center">
+                       <img src="../assets/images/icon-4.png" alt="">
+                       <p>Sed ut perspiaciatis omnis iste natus error sit voluptatem accusantium</p>
+                   </div>
+               </div>
+            </div>
+            <!-- / SEZIONE CARTE -->
+
         </div>
     </div>
 </template>
@@ -20,6 +46,10 @@
 <script>
 export default {
     name:'welcome',
+    components: {
+    },
+    data(){
+    }
 }
 </script>
 
@@ -30,11 +60,14 @@ export default {
 #my-welcome-section{
     margin:auto;
     width:$primaryWidth;
-
-    height: 500px; //atezza impostata per capire grandezze pagina, poi verrà rimossa
+    
     h1{
         color:$thirdColor;
     }
 }
 
+.welcome-cards{
+    padding-top: 50px;
+    padding-bottom:100px;
+}
 </style>
