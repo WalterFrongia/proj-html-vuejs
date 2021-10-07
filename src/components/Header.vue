@@ -92,6 +92,8 @@ ul{
     li{
     list-style-type: none;
     text-align: center;
+
+    font-size: $primaryFont;
         a{
             padding:0 15px;
             text-decoration: none;
