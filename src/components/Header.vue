@@ -35,11 +35,13 @@
         <div id="text-section">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-4">
-                        <h1>CARING FOR LIFE</h1>
+                    <div class="col-6">
+                        <h1>CARING 
+                            <span>FOR LIFE</span>
+                        </h1>
                     </div>
                     <div class="row pt-4 pb-4">
-                        <div class="col-6">
+                        <div class="col-7">
                             <p>Kind words can be short and easy to speack, but their echose are truly endless.
                                 Avada Healt focuses on you as if was our own family.
                             </p>
@@ -132,11 +134,16 @@ button{
 //Text Section
 #text-section{
     margin:auto;
-    width:70%;
+    width:60%;
 
     padding-top:130px;
-    padding-bottom: 200px;
-
+    padding-bottom: 250px;
+    h1{
+        color:$textColor;
+        span{
+            color:$primaryColor;
+        }
+    }
     p{
         color:$textColor;
     }

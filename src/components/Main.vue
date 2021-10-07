@@ -1,6 +1,6 @@
 <template>
     <div id="main-section">
-
+        
     </div>
 </template>
 
