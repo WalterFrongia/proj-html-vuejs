@@ -32,6 +32,7 @@
                 <!-- SEZIONE IMG DOCTORS -->
                 <div class="my-doctros-cards">
                     <div class="row d-flex justify-content-between">
+
                         <div class="col-3 my-cards">
                             <img src="../assets/images/doctor-1.jpg" alt="">
                             <p>JON SNOW</p>
@@ -48,6 +49,7 @@
                                 </div>
                             </div>
                         </div>
+
                             <div class="col-3 my-cards">
                             <img src="../assets/images/doctor-2.jpg" alt="">
                             <p>TONY STARK</p>
@@ -64,6 +66,7 @@
                                 </div>
                             </div>
                         </div>
+
                             <div class="col-3 my-cards">
                             <img src="../assets/images/doctor-3.jpg" alt="">
                             <p>ANNA SMITH</p>
@@ -80,6 +83,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
