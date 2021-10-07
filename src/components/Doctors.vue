@@ -31,8 +31,8 @@
 
                 <!-- SEZIONE IMG DOCTORS -->
                 <div class="my-doctros-cards">
-                    <div class="row">
-                        <div class="col-4 my-cards">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-3 my-cards">
                             <img src="../assets/images/doctor-1.jpg" alt="">
                             <p>JON SNOW</p>
                             <p>Anesthesiologist</p>
@@ -40,14 +40,45 @@
                                 dignismos ducimus qui blandiits
                                 praesentium volupatum delentiti atque
                             </p>
+                            <div class="row">
+                                <div class="col-6 d-flex my-contacts-doctor">
+                                    <img src="../assets/images/logo-facebook.png" alt="">
+                                    <img src="../assets/images/logo-twitter.png" alt="">
+                                    <img src="../assets/images/instagram.jpg" alt="">
+                                </div>
+                            </div>
                         </div>
-                            <div class="col-4 text-center">
+                            <div class="col-3 my-cards">
                             <img src="../assets/images/doctor-2.jpg" alt="">
-                            <p>Sed ut perspiaciatis omnis iste natus error sit voluptatem accusantium</p>
+                            <p>TONY STARK</p>
+                            <p>Cardiologist</p>
+                            <p>At vero eos accusmus et iusto odio 
+                                dignismos ducimus qui blandiits
+                                praesentium volupatum delentiti atque
+                            </p>
+                            <div class="row">
+                                <div class="col-6 d-flex my-contacts-doctor">
+                                    <img src="../assets/images/logo-facebook.png" alt="">
+                                    <img src="../assets/images/logo-twitter.png" alt="">
+                                    <img src="../assets/images/instagram.jpg" alt="">
+                                </div>
+                            </div>
                         </div>
-                            <div class="col-4 text-center">
+                            <div class="col-3 my-cards">
                             <img src="../assets/images/doctor-3.jpg" alt="">
-                            <p>Sed ut perspiaciatis omnis iste natus error sit voluptatem accusantium</p>
+                            <p>ANNA SMITH</p>
+                            <p>Nurse practitioner</p>
+                            <p>At vero eos accusmus et iusto odio 
+                                dignismos ducimus qui blandiits
+                                praesentium volupatum delentiti atque
+                            </p>
+                            <div class="row">
+                                <div class="col-6 d-flex my-contacts-doctor">
+                                    <img src="../assets/images/logo-facebook.png" alt="">
+                                    <img src="../assets/images/logo-twitter.png" alt="">
+                                    <img src="../assets/images/instagram.jpg" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -70,6 +101,7 @@ export default {
     background-color: $fourthyColor;
 
     padding-top:50px;
+    padding-bottom: 100px;
 }
 #my-doctors-section{
     margin:auto;
@@ -88,11 +120,24 @@ export default {
 .my-doctros-cards{
     .my-cards{
         background-color: white;
+        width:300px;
         margin:0;
         padding:0;
+        p{
+            padding:10px
+        }
+        
         }
         img{
             width: 100%;
         }
+}
+
+.my-contacts-doctor{
+    img{
+        width: 100%;
+        padding:5px;
+        border-radius: 10px;
+    }
 }
 </style>
