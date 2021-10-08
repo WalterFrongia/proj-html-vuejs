@@ -62,6 +62,22 @@
 
                 <!-- MEDICAL DEPARTMENTS FOOTER -->
                 <div class="col-4">
+                    <div class="row">
+                        <div class="col-12 pb-3">
+                            <h5>MEDICAL DEPARTMENTS</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 my-blu-line">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <ul>
+                                    <li v-for="link in medicaDepartments" :key="link.name"><a href="">{{link.name}}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
                 <!-- /MEDICAL DEPARTMENTS FOOTER -->
@@ -74,6 +90,28 @@
 <script>
 export default {
     name:'Footer',
+    data(){
+        return{
+            //ARRAY DI OGGETTI CHE SERVE PER LINK FOOTER
+            medicaDepartments:[
+                {
+                    name:"Cardiology"
+                },
+                {
+                    name:"Prediatrics"
+                },
+                {
+                    name:"Diabetes Care"
+                },
+                {
+                    name:"Pre-natel Care"
+                },
+                {
+                    name:"Ultrasound Echicardiogram"
+                },
+            ],
+        }
+    }
 }
 </script>
 
