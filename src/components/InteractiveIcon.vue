@@ -12,15 +12,7 @@
                 <div class="col-4">
                     <img src="../assets/images/client-logos-3.png" alt="">
                 </div>
-                 <!-- <div class="col-4">
-                    <img src="../assets/images/client-logos-1-200x188.png" alt="">
-                </div>
-                <div class="col-4">
-                    <img src="../assets/images/client-logos-4-200x188.png" alt="">
-                </div>
-                <div class="col-4">
-                    <img src="../assets/images/client-logos-3-200x188.png" alt="">
-                </div> -->
+
             </div>
             
         </div>
@@ -43,5 +35,9 @@ export default {
 #my-interactive-icon-section{
     margin: auto;
     width: $primaryWidth;
+}
+
+img{
+    cursor: pointer;
 }
 </style>

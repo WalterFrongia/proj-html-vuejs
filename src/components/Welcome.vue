@@ -67,6 +67,9 @@ export default {
     p{
         line-height: 35px;
     }
+    img{
+        cursor: pointer;
+    }
 }
 
 .my-welcome-cards{

@@ -66,5 +66,8 @@ export default {
         color:white;
         line-height: 35px;
     }
+    img{
+        cursor: pointer;
+    }
 }
 </style>

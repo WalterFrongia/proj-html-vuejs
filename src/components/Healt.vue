@@ -114,6 +114,7 @@ export default {
 
     img{
         padding:10px 0 20px 0;
+        cursor: pointer;
     }
 
     h5{

@@ -134,6 +134,7 @@ export default {
         }
         img{
             width: 100%;
+            cursor: pointer;
         }
 }
 
