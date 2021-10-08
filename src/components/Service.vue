@@ -47,7 +47,6 @@ export default {
 @import "../style/variables.scss";
 
 #my-service-section{
-    height: 300px;
     color:white;
 }
 
