@@ -52,12 +52,13 @@
             </div>
             <!-- / INPUT PER INSERIRE INFO  -->
 
-
+            <!-- BUTTON  -->
             <div class="row d-flex justify-content-center pt-3">
                 <div class="col-8">
                     <button>MAKE AN APPOINTMENT</button>
                 </div>
             </div>
+            <!-- / BUTTON  -->
             
         </div>
     </div>

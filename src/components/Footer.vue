@@ -22,6 +22,8 @@
                         <div class="col-12">
                             <h5>LEARN MORE ABOUT US</h5>
                         </div>
+
+                        <!-- LINK SOCIAL -->
                         <div clas="row">
                             <div class="col-5 d-flex pt-3">
                                 <img src="../assets/images/logo-facebook.png" alt="">
@@ -30,6 +32,7 @@
                                 <img src="../assets/images/logo-youtube.png" alt="">
                             </div>
                         </div>
+                        <!-- / LINK SOCIAL -->
                     </div>
                 </div>
                 <!-- /INFORMAZIONI AVADA HEALT FOOTER -->
