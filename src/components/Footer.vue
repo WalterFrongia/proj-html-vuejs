@@ -35,18 +35,25 @@
                 <!-- /INFORMAZIONI AVADA HEALT FOOTER -->
                 
                 <!-- CONTACT INFORMATION FOOTER -->
-                <div class="col-4">                    
+                <div class="col-4 ps-3">                    
                     <div class="row">
                         <div class="col-12 pb-3">
                             <h5>CONTACT INFORMATION</h5>
                         </div>
                         <div class="row">
-                            <div class="col-1 my-blu-line">
+                            <div class="col-2 my-blu-line">
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col-12 d-flex">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>121 King Street, London Uniter Kingdom</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-12 d-flex">
                                 <i class="fas fa-phone"></i>
+                                <p>1.800.458.556</p>
                             </div>
                         </div>
                     </div>
@@ -89,6 +96,13 @@ export default {
         border-radius: 10px;
         margin:0 5px;
     }
+
+    i{
+        font-size: 1.2rem;
+        color:$primaryColor;
+        vertical-align: baseline;
+        padding-right: 10px;
+    }
 }
 
 .my-line{
@@ -97,7 +111,7 @@ export default {
 }
 
 .my-blu-line{
-    border:1px solid blue;
+    border:1px solid $primaryColor;
     border-radius: 10px;
 }
 </style>
