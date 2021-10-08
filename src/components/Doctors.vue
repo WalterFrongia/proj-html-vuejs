@@ -50,7 +50,7 @@
                             </div>
                         </div>
 
-                            <div class="col-3 my-cards">
+                        <div class="col-3 my-cards">
                             <img src="../assets/images/doctor-2.jpg" alt="">
                             <p>TONY STARK</p>
                             <p>Cardiologist</p>
@@ -67,7 +67,7 @@
                             </div>
                         </div>
 
-                            <div class="col-3 my-cards">
+                        <div class="col-3 my-cards">
                             <img src="../assets/images/doctor-3.jpg" alt="">
                             <p>ANNA SMITH</p>
                             <p>Nurse practitioner</p>
