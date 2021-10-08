@@ -25,6 +25,17 @@ export default {
 
 @import "./style/variables.scss";
 @import 'bootstrap/scss/bootstrap.scss';
-@import "~@fortawesome/fontawesome-free/css/all.css"
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+body{
+    font-family:'Open Sans', sans-serif;
+    p,li,button{
+        font-size:1.2rem;    
+    }
+    h1{
+        font-size: 3.5rem;
+        font-weight: 300;
+    }
+}
 
 </style>
