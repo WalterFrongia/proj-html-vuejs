@@ -33,7 +33,7 @@
             </div>
 
         </div>
-        
+
     </div>
 </template>
 
@@ -61,9 +61,9 @@ export default {
     }
     button{
         background-color: transparent;
-        border:1px solid white;
+        border:2px solid white;
         color:white;
-        padding: 8px 30px;
+        padding: 8px 35px;
     }
     img{
         padding-top: 10px;

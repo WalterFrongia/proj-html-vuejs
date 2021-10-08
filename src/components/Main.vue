@@ -5,6 +5,7 @@
         <Healt/>
         <Facilities/>
         <Service/>
+        <Appointment/>
     </div>
 </template>
 
@@ -14,6 +15,7 @@ import Doctors from '../components/Doctors.vue'
 import Healt from '../components/Healt.vue'
 import Facilities from './Facilities.vue'
 import Service from './Service.vue'
+import Appointment from './Appointment.vue'
 
 export default {
     name:'Main',
@@ -23,8 +25,10 @@ export default {
         Healt,
         Facilities,
         Service,
+        Appointment,
     }
-}
+,
+        Appointment}
 </script>
 
 <style lang="scss" scoped>
