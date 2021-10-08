@@ -114,6 +114,13 @@ ul{
     list-style-type: none;
     text-align: center;
 
+    border:2px solid transparent;
+    padding-bottom: 7px;
+    &:hover{
+        border-bottom: 2px solid $primaryColor;
+        padding-bottom: 7px;
+    }
+
         a{
             padding:0 15px;
             text-decoration: none;
