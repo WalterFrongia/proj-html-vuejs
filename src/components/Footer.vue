@@ -35,8 +35,21 @@
                 <!-- /INFORMAZIONI AVADA HEALT FOOTER -->
                 
                 <!-- CONTACT INFORMATION FOOTER -->
-                <div class="col-4">
-
+                <div class="col-4">                    
+                    <div class="row">
+                        <div class="col-12 pb-3">
+                            <h5>CONTACT INFORMATION</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-1 my-blu-line">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- / CONTACT INFORMATION FOOTER -->
 
@@ -80,6 +93,11 @@ export default {
 
 .my-line{
     border:1px solid #bcbcbd;
+    border-radius: 10px;
+}
+
+.my-blu-line{
+    border:1px solid blue;
     border-radius: 10px;
 }
 </style>
