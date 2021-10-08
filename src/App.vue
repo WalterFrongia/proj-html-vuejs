@@ -28,7 +28,7 @@ export default {
 @import "~@fortawesome/fontawesome-free/css/all.css";
 
 body{
-    font-family:'Open Sans', sans-serif;
+    font-family:$bodyFont;
     p,li,button{
         font-size:1rem;    
     }

@@ -30,8 +30,7 @@ export default {
         Appointment,
         InteractiveIcon,
     }
-,
-        Appointment}
+}
 </script>
 
 <style lang="scss">

@@ -125,16 +125,14 @@ export default {
 @import "../style/variables.scss";
 
 body{
-    font-family:'Open Sans', sans-serif;
+    font-family:$bodyFont;
     p,li,button{
         font-size:0.8rem;
     }
 }
 #footer-section{
     padding-top:50px;
-
-    height: 500px;
-
+    padding-bottom:30px;
     p{
         line-height: 35px;
     }
