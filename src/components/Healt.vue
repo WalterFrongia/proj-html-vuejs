@@ -10,6 +10,7 @@
             <div class="col-12 text-center">
                 <h1>OUR HEALT SERVICES</h1>
             </div>
+        </div>
         <div class="row d-flex justify-content-center pt-3">
             <div class="col-3 my-line"></div>
         </div>
@@ -23,62 +24,63 @@
         </div>
         <!-- / SEZIONE ICONA TITOLO E DESCRIZIONE HEALT SECTION -->
 
+        <!-- SEZIONE CARD CON ICONA TITOLO E INFORMAZIONE -->
         <div class="my-healt-cards">
-               <div class="row">
-                   <div class="col-4 text-center">
-                       <img src="../assets/images/icon-14.png" alt="">
-                       <h5>REABILITATION CENTER</h5>
-                       <p>At vero eos accusmus et iusto odio 
-                            dignismos ducimus qui blandiits
-                            praesentium volupatum delentiti atque
-                        </p>
-                   </div>
-                    <div class="col-4 text-center">
-                       <img src="../assets/images/icon-15.png" alt="">
-                       <h5>DENTAL IMPLANTS</h5>
-                       <p>At vero eos accusmus et iusto odio 
-                            dignismos ducimus qui blandiits
-                            praesentium volupatum delentiti atque
-                        </p>
-                   </div>
-                    <div class="col-4 text-center">
-                       <img src="../assets/images/icon-16.png" alt="">
-                       <h5>MEDICINE RESEARCH</h5>
-                       <p>At vero eos accusmus et iusto odio 
-                            dignismos ducimus qui blandiits
-                            praesentium volupatum delentiti atque
-                        </p>
-                   </div>
-               </div>
+            <div class="row">
+                <div class="col-4 text-center">
+                    <img src="../assets/images/icon-14.png" alt="">
+                    <h5>REABILITATION CENTER</h5>
+                    <p>At vero eos accusmus et iusto odio 
+                        dignismos ducimus qui blandiits
+                        praesentium volupatum delentiti atque
+                    </p>
+                </div>
+                <div class="col-4 text-center">
+                    <img src="../assets/images/icon-15.png" alt="">
+                    <h5>DENTAL IMPLANTS</h5>
+                    <p>At vero eos accusmus et iusto odio 
+                        dignismos ducimus qui blandiits
+                        praesentium volupatum delentiti atque
+                    </p>
+                </div>
+                <div class="col-4 text-center">
+                    <img src="../assets/images/icon-16.png" alt="">
+                    <h5>MEDICINE RESEARCH</h5>
+                    <p>At vero eos accusmus et iusto odio 
+                        dignismos ducimus qui blandiits
+                        praesentium volupatum delentiti atque
+                    </p>
+                </div>
+            </div>
 
-               <div class="row">
-                   <div class="col-4 text-center">
-                       <img src="../assets/images/icon-11.png" alt="">
-                       <h5>BLOOD BANK</h5>
-                       <p>At vero eos accusmus et iusto odio 
-                            dignismos ducimus qui blandiits
-                            praesentium volupatum delentiti atque
-                        </p>
-                   </div>
-                    <div class="col-4 text-center">
-                       <img src="../assets/images/icon-12.png" alt="">
-                       <h5>PHARMACEUTICAL ADVICE</h5>
-                       <p>At vero eos accusmus et iusto odio 
-                            dignismos ducimus qui blandiits
-                            praesentium volupatum delentiti atque
-                        </p>
-                   </div>
-                    <div class="col-4 text-center">
-                       <img src="../assets/images/icon-13.png" alt="">
-                       <h5>MEDICAL CONSELING</h5>
-                       <p>At vero eos accusmus et iusto odio 
-                            dignismos ducimus qui blandiits
-                            praesentium volupatum delentiti atque
-                        </p>
-                   </div>
-               </div>
+            <div class="row">
+                <div class="col-4 text-center">
+                    <img src="../assets/images/icon-11.png" alt="">
+                    <h5>BLOOD BANK</h5>
+                    <p>At vero eos accusmus et iusto odio 
+                        dignismos ducimus qui blandiits
+                        praesentium volupatum delentiti atque
+                    </p>
+                </div>
+                <div class="col-4 text-center">
+                    <img src="../assets/images/icon-12.png" alt="">
+                    <h5>PHARMACEUTICAL ADVICE</h5>
+                    <p>At vero eos accusmus et iusto odio 
+                        dignismos ducimus qui blandiits
+                        praesentium volupatum delentiti atque
+                    </p>
+                </div>
+                <div class="col-4 text-center">
+                    <img src="../assets/images/icon-13.png" alt="">
+                    <h5>MEDICAL CONSELING</h5>
+                    <p>At vero eos accusmus et iusto odio 
+                        dignismos ducimus qui blandiits
+                        praesentium volupatum delentiti atque
+                    </p>
+                </div>
             </div>
         </div>
+        <!-- / SEZIONE CARD CON ICONA TITOLO E INFORMAZIONE -->
     </div>
 
 </template>
