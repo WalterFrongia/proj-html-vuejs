@@ -27,6 +27,7 @@
                <div class="row">
                    <div class="col-4 text-center">
                        <img src="../assets/images/icon-14.png" alt="">
+                       <h5>REABILITATION CENTER</h5>
                        <p>At vero eos accusmus et iusto odio 
                             dignismos ducimus qui blandiits
                             praesentium volupatum delentiti atque
@@ -34,6 +35,7 @@
                    </div>
                     <div class="col-4 text-center">
                        <img src="../assets/images/icon-15.png" alt="">
+                       <h5>DENTAL IMPLANTS</h5>
                        <p>At vero eos accusmus et iusto odio 
                             dignismos ducimus qui blandiits
                             praesentium volupatum delentiti atque
@@ -41,6 +43,7 @@
                    </div>
                     <div class="col-4 text-center">
                        <img src="../assets/images/icon-16.png" alt="">
+                       <h5>MEDICINE RESEARCH</h5>
                        <p>At vero eos accusmus et iusto odio 
                             dignismos ducimus qui blandiits
                             praesentium volupatum delentiti atque
@@ -51,6 +54,7 @@
                <div class="row">
                    <div class="col-4 text-center">
                        <img src="../assets/images/icon-11.png" alt="">
+                       <h5>BLOOD BANK</h5>
                        <p>At vero eos accusmus et iusto odio 
                             dignismos ducimus qui blandiits
                             praesentium volupatum delentiti atque
@@ -58,6 +62,7 @@
                    </div>
                     <div class="col-4 text-center">
                        <img src="../assets/images/icon-12.png" alt="">
+                       <h5>PHARMACEUTICAL ADVICE</h5>
                        <p>At vero eos accusmus et iusto odio 
                             dignismos ducimus qui blandiits
                             praesentium volupatum delentiti atque
@@ -65,6 +70,7 @@
                    </div>
                     <div class="col-4 text-center">
                        <img src="../assets/images/icon-13.png" alt="">
+                       <h5>MEDICAL CONSELING</h5>
                        <p>At vero eos accusmus et iusto odio 
                             dignismos ducimus qui blandiits
                             praesentium volupatum delentiti atque
@@ -72,9 +78,9 @@
                    </div>
                </div>
             </div>
+        </div>
     </div>
-            
-    </div>
+
 </template>
 
 <script>
@@ -103,5 +109,11 @@ export default {
 .my-healt-cards{
     padding-top: 50px;
     padding-bottom:100px;
+    img{
+        padding:10px 0 20px 0;
+    }
+    h5{
+        padding:5px 0;
+    }
 }
 </style>
