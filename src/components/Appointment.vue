@@ -1,6 +1,8 @@
 <template>
     <div id="my-wrapping-appointment-section">
         <div id="my-appointment-section">
+
+            <!-- TITOLO E TESTO SEZIONE APPUNTAMENTI -->
             <div class="row d-flex justify-content-center">
                 <div class="col-6">
                     <h1>Make An Appointment</h1>
@@ -17,6 +19,46 @@
                     </p>
                 </div>
             </div>
+            <!-- / TITOLO E TESTO SEZIONE APPUNTAMENTI -->
+
+            <!-- INPUT TEXT PER INSERIRE NOME ED EMAIL -->
+            <div class="row d-flex justify-content-center pb-4">
+                <div class="col-4">
+                    <input type="text" placeholder="Name*">
+                </div>
+
+                <div class="col-4">
+                    <input type="text" placeholder="Email*">
+                </div>
+            </div>
+            <!-- / INPUT TEXT PER INSERIRE NOME ED EMAIL -->
+
+            <!-- INPUT TEXT PER INSEIRE NUMERO E DATA APPUNTAMENTO -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-4">
+                    <input type="text" placeholder="Phone Number">
+                </div>
+                <div class="col-4 pb-4">
+                    <input type="text" placeholder="Appointment Date">
+                </div>
+            </div>
+            <!-- / INPUT TEXT PER INSEIRE NUMERO E DATA APPUNTAMENTO -->
+
+            <!-- INPUT PER INSERIRE INFO  -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-8">
+                    <input class="pb-5" type="text" placeholder="How can we help?*">
+                </div>
+            </div>
+            <!-- / INPUT PER INSERIRE INFO  -->
+
+
+            <div class="row d-flex justify-content-center pt-3">
+                <div class="col-8">
+                    <button>MAKE AN APPOINTMENT</button>
+                </div>
+            </div>
+            
         </div>
     </div>
 </template>
@@ -36,13 +78,34 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #my-appointment-section{
     margin:auto;
     width:$primaryWidth;
 
-    height: 500px;
     color:white;
     padding-top:100px;
+    padding-bottom:100px;
+
+    p{
+        line-height: 35px;
+    }
+    input{
+        background-color: transparent;
+        color:white;
+        border:1px solid white;
+        padding:10px 10px;
+        width: 100%;
+    }
+    button{
+    background-color: $primaryColor;
+    color:$secondaryColor;
+
+    border:none;
+    border-radius:2px;
+    padding:10px 0;
+    width:100%;
+}
 }
 
 .my-line{
