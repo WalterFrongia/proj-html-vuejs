@@ -1,6 +1,7 @@
 <template>
     <div id="my-wrapping-interactive-icon-section">
         <div id="my-interactive-icon-section">
+
             <div class="row text-center">
                 <div class="col-4">
                     <img src="../assets/images/client-logos-1.png" alt="">
@@ -21,6 +22,7 @@
                     <img src="../assets/images/client-logos-3-200x188.png" alt="">
                 </div> -->
             </div>
+            
         </div>
     </div>
 </template>
