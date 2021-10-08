@@ -1,5 +1,5 @@
 <template>
-    <div id="healt-section">
+    <div id="my-healt-section">
         <!-- SEZIONE ICONA TITOLO E DESCRIZIONE HEALT SECTION -->
         <div class="row pt-5">
             <div class="col-12 text-center">
@@ -87,17 +87,17 @@
 
 <script>
 export default {
-
+    name:"Healt",
 }
 </script>
 
 <style lang="scss" scoped>
 @import "../style/variables.scss";
 
-#healt-section{
+#my-healt-section{
     margin:auto;
     width:$primaryWidth;
-    height: 500px;
+
     p{
         line-height: 35px;
     }
@@ -111,9 +111,11 @@ export default {
 .my-healt-cards{
     padding-top: 50px;
     padding-bottom:100px;
+
     img{
         padding:10px 0 20px 0;
     }
+
     h5{
         padding:5px 0;
     }
