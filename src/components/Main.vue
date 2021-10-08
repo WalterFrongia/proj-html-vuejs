@@ -4,6 +4,7 @@
         <Doctors/>
         <Healt/>
         <Facilities/>
+        <Service/>
     </div>
 </template>
 
@@ -12,6 +13,7 @@ import Welcome from '../components/Welcome.vue'
 import Doctors from '../components/Doctors.vue'
 import Healt from '../components/Healt.vue'
 import Facilities from './Facilities.vue'
+import Service from './Service.vue'
 
 export default {
     name:'Main',
@@ -20,6 +22,7 @@ export default {
         Doctors,
         Healt,
         Facilities,
+        Service,
     }
 }
 </script>
