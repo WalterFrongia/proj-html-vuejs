@@ -6,6 +6,7 @@
         <Facilities/>
         <Service/>
         <Appointment/>
+        <InteractiveIcon/>
     </div>
 </template>
 
@@ -16,6 +17,7 @@ import Healt from '../components/Healt.vue'
 import Facilities from './Facilities.vue'
 import Service from './Service.vue'
 import Appointment from './Appointment.vue'
+import InteractiveIcon from './InteractiveIcon.vue'
 
 export default {
     name:'Main',
@@ -26,6 +28,7 @@ export default {
         Facilities,
         Service,
         Appointment,
+        InteractiveIcon,
     }
 ,
         Appointment}
