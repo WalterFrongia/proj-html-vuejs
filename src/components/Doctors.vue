@@ -20,7 +20,7 @@
                 
                 <!-- DESCRIZIONE DOCTORS SECTION -->
                 <div class="row d-flex justify-content-center">
-                    <div class="col-8 pt-5 text-center">
+                    <div class="col-8 pt-5 pb-4 text-center">
                         <p>Sed ut perspiaciatis omnis iste natus error sit voluptatem accusantium
                              doloremque laudatium, totam rem apreriam, aeque ipsa quae ab illo
                              inventore veritatis et quasi architetto beatae

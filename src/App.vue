@@ -30,7 +30,7 @@ export default {
 body{
     font-family:'Open Sans', sans-serif;
     p,li,button{
-        font-size:1.2rem;    
+        font-size:1rem;    
     }
     h1{
         font-size: 3.5rem;

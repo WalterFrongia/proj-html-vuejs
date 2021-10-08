@@ -77,6 +77,11 @@
                                 </ul>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <button>VIEW OUR DEPARTMENTS</button>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -119,6 +124,12 @@ export default {
 
 @import "../style/variables.scss";
 
+body{
+    font-family:'Open Sans', sans-serif;
+    p,li,button{
+        font-size:0.8rem;
+    }
+}
 #footer-section{
     padding-top:50px;
 
@@ -136,10 +147,10 @@ export default {
     }
 
     i{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         color:$primaryColor;
-        vertical-align: baseline;
         padding-right: 10px;
+        padding-top: 10px;
     }
     ul{
         list-style-type: none;
@@ -162,6 +173,13 @@ export default {
         }
     }
 
+}
+
+button{
+        background-color: transparent;
+        padding:10px 25px;
+
+        border:1px solid black;
 }
 
 .my-line{
