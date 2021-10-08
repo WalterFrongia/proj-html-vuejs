@@ -73,7 +73,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <ul>
-                                    <li v-for="link in medicaDepartments" :key="link.name"><a href="">{{link.name}}</a></li>
+                                    <li v-for="link in medicaDepartments" :key="link.name"><a href=""><i class="fas fa-chevron-right"></i> {{link.name}} </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -141,6 +141,27 @@ export default {
         vertical-align: baseline;
         padding-right: 10px;
     }
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+
+        li{
+        line-height: 45px;
+        a{
+            text-decoration: none;
+            color:black;
+            padding-left: 10px;
+        }
+        }
+        i{
+            color:white;
+            background-color: $primaryColor;
+            border-radius: 50%;
+            padding:5px 10px;
+            vertical-align: middle;
+        }
+    }
+
 }
 
 .my-line{
